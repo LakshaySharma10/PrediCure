@@ -1,0 +1,117 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>Obesity Dataset</h1>
+  <div class="form-container">
+    <div class="form-item">
+      <label for="age">Your Age:</label>
+      <input type="number" id="age" name="age" min="1" max="120" required>
+      <label for="gender">Gender:</label>
+      <input list="genders" name="gender">
+      <datalist id="genders">
+        <option value="Male">
+        <option value="Female">
+      </datalist>
+    </div>
+
+    <div class="form-item">
+      <label for="height">Height (in meters):</label>
+      <input type="number" id="height" name="height" step="0.01">
+      <label for="weight">Weight (in kg):</label>
+      <input type="number" id="weight" name="weight" step="0.01">
+    </div>
+
+    <div class="form-item">
+      <label for="history">Family History with overweight:</label>
+      <input list="histories" name="history">
+      <datalist id="histories">
+        <option value="Yes">
+        <option value="No">
+      </datalist>
+      <label for="FAVC">Do you eat high caloric food frequently?:</label>
+      <input list="FAVC" name="FAVC">
+      <datalist id="FAVC">
+        <option value="Yes">
+        <option value="No">
+      </datalist>
+      <label for="MTRANS">Which transportation do you usually use?:</label>
+      <input list="MTRANS" name="MTRANS">
+      <datalist id="MTRANS">
+        <option value="Automobile">
+        <option value="Motorbike">
+        <option value="Bike">
+        <option value="Public_Transportation">
+        <option value="Walking">
+      </datalist>
+    </div>
+
+    <div class="form-item">
+      <label for="FCVC">Do you usually eat vegetables in your meals?:</label>
+      <input type="number" id="FCVC" name="FCVC">
+      <label for="NCP">How many main meals do you have daily?:</label>
+      <input type="number" id="NCP" name="NCP">
+      <label for="CAEC">Do you eat any food between meals?:</label>
+      <input list="CAEC" name="CAEC">
+      <datalist id="CAEC">
+        <option value="Sometimes">
+        <option value="Frequently">
+        <option value="Always">
+      </datalist>
+    </div>
+
+    <div class="form-item">
+      <label for="SMOKE">Do you smoke?:</label>
+      <input list="SMOKE" name="SMOKE">
+      <datalist id="SMOKE">
+        <option value="Yes">
+        <option value="No">
+      </datalist>
+      <label for="CH2O">How much water do you drink daily (in liters)?:</label>
+      <input type="number" id="CH2O" name="CH2O">
+      <label for="SCC">Do you monitor the calories you eat daily?:</label>
+      <input list="SCC" name="SCC">
+      <datalist id="SCC">
+        <option value="Yes">
+        <option value="No">
+      </datalist>
+    </div>
+
+    <div class="form-item">
+      <label for="FAF">How often do you have physical activity (in days/week)?:</label>
+      <input type="number" id="FAF" name="FAF">
+      <label for="TUE">How much time do you use technological devices daily (in hours)?:</label>
+      <input type="number" id="TUE" name="TUE">
+      <label for="CALC">How often do you drink alcohol?:</label>
+      <input list="CALC" name="CALC">
+      <datalist id="CALC">
+        <option value="Sometimes">
+        <option value="Frequently">
+        <option value="Always">
+        <option value="No">
+      </datalist>
+    </div>
+
+    
+  </div>
+  
+  <div class="submit-container">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+  
+   
+  
+</body>
+
+</html>
