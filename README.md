@@ -2,7 +2,7 @@
         
     
 <h2>Overview</h2>
-            <p>PrediCure is an innovative project envisioned by four enthusiastic B.Tech-AIML students from the 2022-2026 batch at Vivekanand Institute of Professional Studies (VIPS-TC) in Delhi. Our goal is to revolutionize chronic disease prediction by harnessing the power of artificial intelligence (AI) and machine learning algorithms.</p>
+            <p>PrediCure is an innovative project envisioned by enthusiastic B.Tech-AIML students from the 2022-2026 batch at Vivekanand Institute of Professional Studies (VIPS-TC) in Delhi. Our goal is to revolutionize chronic disease prediction by harnessing the power of artificial intelligence (AI) and machine learning algorithms.</p>
             <p>PrediCure's user-friendly website allows easy input of everyday health parameters, empowering individuals to take a more proactive role in their well-being by receiving initial predictions about their risk of common chronic diseases. This early detection can lead to better health outcomes through preventive measures or earlier treatment.</p>
 
  <h2>Features</h2>
