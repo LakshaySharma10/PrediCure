@@ -27,7 +27,9 @@ pip install -r requirements.txt
 flask run</code></pre>
 
   <h2>Preview </h2>
-  https://github.com/LakshaySharma10/PrediCure/assets/140998848/17dbb986-1b61-407d-95a1-54ceaa5d82fc
+
+
+ https://github.com/LakshaySharma10/PrediCure/assets/140998848/1dd183cf-ba32-4afa-9328-d3254b365bab
 
 
 <p>&copy; 2024 PrediCure Team. All Rights Reserved.</p>
